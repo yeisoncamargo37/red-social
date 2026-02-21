@@ -35,7 +35,7 @@
 }
 .inicio {
     display: flex;
-    gap: 15 px; 
+    gap: 15px; 
 }
 
 .mired {
@@ -143,13 +143,22 @@
     color: #666;
 }
 
+
 .sugerencias {
     display: flex;
-    gap: 10px;
-    padding-bottom: 10px;
+    gap: 1%;
+    padding-bottom: 1%;
+    flex-wrap: wrap;
 
 }
 
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
 
 .perfil1, .perfil2, .perfil3, .perfil4,.perfil5  {
     border: 1px black;
