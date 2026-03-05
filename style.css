@@ -90,7 +90,7 @@
     height: 70px;
     border-radius: 50%;
     border: 2px solid white;
-    margin-top: -35px; 
+    margin-top: 35px; 
     background: white;
 }
 
@@ -273,5 +273,4 @@
     border-width: 2px;
     padding: 4px 15px; 
 }
-
 
