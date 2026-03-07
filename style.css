@@ -1,28 +1,48 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
 .header {
     display: flex;
     align-items: center;
-    padding: 10px 10%; 
+    padding: 5px 20%; 
     background-color: #fff;
-    border-bottom: 1px solid #e0e0e0
+    border-bottom: 1px solid   #e0e0e0
 }
 .logo {
-    width: 35px; 
+    width: 4%; 
     height: auto;
-    margin-right: 10px;
+    margin-right: 1%;
 }
 .buscador {
     margin-right: auto;
 }
 .buscador input {
     padding: 8px 12px;
-    border-radius: 4px;
+    border-radius: 20px;
     border: 1px solid #ccc;
     background-color: #edf3f8;
+    width: 130%;
 } 
+.navegacion {
+    display: flex;
+    gap: 5%;
+}
 .navegacion a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
-    margin-left: 15px;
     color: #5c5b5b;
+    font-size: 100%;
+}
+.navegacion i{
+    font-size: 100%;
+}
+.navegacion span {
+    margin-top: 4px;
 }
 .contenedor {
     display: grid;
@@ -90,7 +110,7 @@
     height: 70px;
     border-radius: 50%;
     border: 2px solid white;
-    margin-top: 35px; 
+    margin-top: -35px; 
     background: white;
 }
 
