@@ -53,37 +53,6 @@ body{
     padding: 20px 0;
     align-items: start;
 }
-.inicio {
-    display: flex;
-    gap: 15px; 
-}
-
-.mired {
-    display: flex;
-    gap: 1%;
-    margin-left: auto;
-}
-
-.empleos {
-    display: flex;
-    align-items: center;
-}
-
-.mensaje {
-    display: flex;
-    align-items: center;
-}
-
-.notificaciones {
-    display: flex;
-    align-items: center;
-}
-
-.perfil {
-    display: flex;
-    margin-left: auto;
-}
-
 
 .caja1, .caja3 {
     width: 100%; 
@@ -101,17 +70,23 @@ body{
 
 .fondo {
     width: 100%;
-    height: 60px;
-    object-fit: cover;
+    height: 70px;
+    background-image: url(imagenes/white-low-poly-background-338.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .img-pequeña {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 2px solid white;
-    margin-top: -35px; 
-    background: white;
+    background-image: url(imagenes/10985667.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+ 
+    transform: translateX(20%) translateY(-60%); 
 }
 
 .nombre {
