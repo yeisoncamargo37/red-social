@@ -85,7 +85,6 @@ body{
     background-size: cover;
     display: flex;
     position: absolute;
- 
     transform: translateX(20%) translateY(-60%); 
 }
 
@@ -95,10 +94,20 @@ body{
     margin-top: 10px;
 }
 
-.textos, .contactos {
-    font-size: 12px;
-    color: #666;
-    padding: 0 10px;
+.contactos {
+    display:flex;
+    justify-content: space-between;
+
+}
+.contactos a {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+.contactos i { 
+    color: #000000; 
 }
 
 .informacion,.contactos, .decor-card {
@@ -107,7 +116,13 @@ body{
     border: 1px solid #e0e0e0;
     padding: 12px;
 }
-
+.informacion a {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-decoration:none;
+    color: #545252;
+}
 
 .textos-lista {
     list-style: none;
