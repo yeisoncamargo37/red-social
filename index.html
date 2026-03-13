@@ -2,15 +2,19 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>linked</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="style.css"> 
 </head>
 
 <body>
+
+    <div class="grid-contained">
     <header class="header">
         <img src="imagenes/2d6fcb4ffd51802b261abd7e0d5d2b05.jpg" class="logo" alt="Logo de LinkedIn">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <div class="buscador">
             <input type="text" placeholder="Buscar">
         </div>
@@ -48,7 +52,7 @@
             <div class="card"> 
                 <img src="imagenes/white-low-poly-background-338.jpg" class="fondo" alt="Card Image">
                     <div class="perfil-contenedor">
-                <img src="imagenes/10985667.png" class="img-pequeña" alt="Card Image" >
+                <img src="imagenes/10985667.png" class="foto-perfil" alt="Card Image" >
                 </div>
                 <div class="info-perfil">
                     <p class="nombre">Maximiliano Guerrero</p>
@@ -91,54 +95,69 @@
                     <a herf="#evento"><i class="fa-solid fa-newspaper"></i><span>evento</span></a>
                 </div>
             </div>
-            <p class="titulo-sugerencia">sugerencias para ti</p>
+            <div class="separador">
+                <span>sugerencias para ti</span>
+            </div>
             <div class="sugerencias">
-                <div class="perfil1">
-                    <div class="portada-pequeña"></div>
-                        <img src="imagenes/logoSenaNaranja.png" class="avatar-sugerencia" alt="Usuario">
-                        <p class="nombre-sugerencia">Servicio Nacional de Aprendizaje (SENA)</p>
+                <div class="perfil">
+                    <div class="portada-pequeña">
+                        <img src="imagenes/logoSenaNaranja.png" class="avatar" alt="Usuario">
+                        <p class="nombre-perfil">Servicio Nacional de Aprendizaje (SENA)</p>
+                    </div>    
                         <div class="datos">
                             <p class="texto">Desde Bienestar al Aprendiz del SENA invitamos a todas las aprendices a participar en nuestra Actividad Musicalizada, Cardio Rumba, un espacio para moverse, liberar energía y disfrutar de la actividad física.</p>
                             <img src="imagenes/fd910fe1-5ede-4fe3-a562-c12ab3b2f7cf.jpg" class="publicaciones" alt="usuario">
                         </div>
-                        <div>
-                            <button class="boton-conectar">Conectar</button>
-                        </div>     
-                </div>
-                <div class="perfil2">
-                    <div class="portada-pequeña"></div>
-                        <img src="imagenes/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" class="avatar-sugerencia" alt="Usuario">
-                        <div class="datos">
-                            <p class="nombre-sugerencia">yeison camargo</p>
-                            <p class="cargo-sugerencia">Desarrollador Fullstack</p>
-                            <button class="boton-conectar">Conectar</button>
-                        </div>     
-                </div>
-                <div class="perfil3"><div class="portada-pequeña"></div>
-                        <img src="imagenes/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" class="avatar-sugerencia" alt="Usuario">
-                        <div class="datos">
-                            <p class="nombre-sugerencia">yeison camargo</p>
-                            <p class="cargo-sugerencia">Desarrollador Fullstack</p>
-                            <button class="boton-conectar">Conectar</button>
-                        </div>
-                </div>  
-                    
-
-                <div class="perfil4"><div class="portada-pequeña"></div>
-                        <img src="imagenes/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" class="avatar-sugerencia" alt="Usuario">
-                        <div class="datos">
-                            <p class="nombre-sugerencia">yeison camargo</p>
-                            <p class="cargo-sugerencia">Desarrollador Fullstack</p>
-                            <button class="boton-conectar">Conectar</button>
+                        <div class="acciones">
+                            <div class="accion">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <spam>Recomendar</spam>
                             </div>
-                </div> 
-                <div class="perfil5"><div class="portada-pequeña"></div>
-                        <img src="imagenes/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" class="avatar-sugerencia" alt="Usuario">
+                            <div class="accion">
+                                <i class="fa-regular fa-comment"></i>
+                                <spam>Comentar</spam>
+                            </div>
+                            <div class="accion">
+                                <i class="fa-solid fa-share"></i>
+                                <spam>Compartir</spam>
+                            </div>
+                            <div class="accion">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Enviar</span>
+                            </div>
+                            
+                        </div>     
+                </div>
+                 <div class="perfil">
+                    <div class="portada-pequeña">
+                        <img src="imagenes/465793924_10228890313095601_2205648559186571509_n.jpg" class="avatar" alt="Usuario">
+                        <p class="nombre-perfil">Yeison D. Camargo</p>
+                    </div>    
                         <div class="datos">
-                            <p class="nombre-sugerencia">yeison camargo</p>
-                            <p class="cargo-sugerencia">Desarrollador Fullstack</p>
-                            <button class="boton-conectar">Conectar</button></div>
-                </div>     
+                            <p class="texto">  Ser desarrollador Full Stack no es solo saber muchas tecnologías.
+                                               Con el tiempo he aprendido que lo más importante no es dominar todos los frameworks que aparecen cada año, sino entender los fundamentos del desarrollo de software.</p>
+                            <img src="imagenes/1773185701794.jpg" class="publicaciones" alt="usuario">
+                        </div>
+                        <div class="acciones">
+                            <div class="accion">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <spam>Recomendar</spam>
+                            </div>
+                            <div class="accion">
+                                <i class="fa-regular fa-comment"></i>
+                                <spam>Comentar</spam>
+                            </div>
+                            <div class="accion">
+                                <i class="fa-solid fa-share"></i>
+                                <spam>Compartir</spam>
+                            </div>
+                            <div class="accion">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Enviar</span>
+                            </div>
+                            
+                        </div>     
+                </div>       
             </div>  
         </div>
         <div class="caja3">
@@ -167,5 +186,6 @@
         </div>
 
     </div>
-
+    </div>
+   
 </body>
