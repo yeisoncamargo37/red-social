@@ -31,7 +31,7 @@ body{
 }
 .buscador {
     flex-grow: 1;
-    margin: 1%;
+    margin: 1% 5%;
 }
 .buscador input {
     width: 100%;
@@ -173,31 +173,25 @@ body{
     gap: 15px;
     min-width: 0;
 }
-.foto{
+.foto {
     width: 50px;
-    height: 50px;
-    
-}
-.foto img{
-    width: 100%;
     height: auto;
-    border-radius: 50%;
-    object-fit: cover;
+    
 }
 
 .publicacion {
     background-color: white;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    padding: 15px;
+    padding: 2%;
     display: flex;
     flex-direction: column;
-    gap: 1%;
+   
 }
 .publicacion-arriba {
     display: flex;
     align-items: center;
-    gap: 1%;
+    gap: 3%;
     width: 100%;
 }
 
