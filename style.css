@@ -376,17 +376,28 @@ body{
     }
 }
 
+@media (max-width:1024px) {
+    .buscador { display: none;}
+    .icono-buscar{
+        display: block;
+        margin: 0 5% 0 1%;
+    }
+    .navegacion span { 
+        display: none;
+    }
+
+    .navegacion {
+        gap: 30%;
+    }
+
+}
 @media (max-width:768px) {
     .buscador {display: none;}
     .icono-buscar{display: block;}
     .navegacion span{
       display: none;
     }
-    .navegacion span{
-        display: none;
-        
-    }
-
+   
     .contenedor{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -394,14 +405,12 @@ body{
         width: 90%;
         margin: 0 auto;
     }
-    .accion span{
-        display: none;
-    }
+    
     .accion i{
         font-size: 1.2rem;
     } 
     .caja3 {
-        grid-column: 1 / span 2;
+        grid-column: 2/ span 1;
     }
 }
 #menu-toogle, .menu-icon {
@@ -420,7 +429,7 @@ body{
         top:0;
         left: 0;
         width: 15%;
-        height: 40vh;
+        height: 50vh;
         background: white;
         z-index: 1000;
         transform: translateX(-100%);
