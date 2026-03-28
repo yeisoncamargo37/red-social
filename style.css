@@ -25,9 +25,9 @@ body{
     flex-grow: 1;
 }
 .logo {
-    width: 35px; 
+    width: 3rem; 
     height: auto;
-    margin-right: 1%;
+
 }
 .buscador {
     flex-grow: 1;
@@ -64,7 +64,7 @@ body{
     font-size: 100%;
 }
 .navegacion span {
-    margin-top: 4px;
+    font-size: 100%;
 }
 .contenedor {
     display: grid;
@@ -262,7 +262,7 @@ body{
     border-top: 1px solid #969292;
    display: flex;
    justify-content: space-around;
-   font-size: 0.8rem;
+   font-size: 1rem;
    padding: 2% 5%;
    width: 100%;
 }
@@ -423,7 +423,7 @@ body{
         top:0;
         left: 0;
         width: 15%;
-        height: 50vh;
+        height: 0vh;
         background: white;
         z-index: 1000;
         transform: translateX(-100%);
