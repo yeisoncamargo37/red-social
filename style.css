@@ -361,17 +361,7 @@ body{
     display: none;
 }
 
-@media (min-width:1200px) {
-    .accion span {font-size: 1rem;
-    }
-    .contenedor {
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
-        gap:2%;
-        width: 85%;
-        margin: 0 auto;
-    }
-}
+
 
 @media (max-width:1024px) {
     .buscador { display: none;}
@@ -396,6 +386,9 @@ body{
     .icono-buscar{display: block;}
     .navegacion span{
       display: none;
+    }
+    .navegacion {
+        gap: 30%;
     }
    
     .contenedor{
